@@ -1,0 +1,4 @@
+db.test.find({ email: { $exists: 'true' } }).project({ name: 1, email: 1 })
+db.test.find({ age: { $type: 'string' } }).project({ name: 1, age:1 })
+db.test.find({ friends: { $size: 0 } }).project({name: 1, friends: 1})
+db.test.find({ interests: { $all: ["Gaming", "Writing", "Reading"] } }).project({ name: 1, interests: 1 })

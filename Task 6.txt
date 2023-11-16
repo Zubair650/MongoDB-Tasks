@@ -1,0 +1,8 @@
+db.test.find({
+    skills: {
+        $elemMatch: {
+            name: "JAVASCRIPT",
+            isLearning : false
+        }
+    }
+}).project({ skills: 1 })

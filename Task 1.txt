@@ -1,0 +1,14 @@
+db.createCollection('test')
+db.test.insertOne({name: 'Zubair'})
+db.test.insertMany(
+    [
+        { role: "Developer" },
+        { role: "Lecturer" }
+    ]
+)
+// Field Filtering
+db.test.findOne({gender: "Female"}, {name: 1, email: 1, gender: 1})
+
+db.test.find({gender: 'Female'}).project({name:1, gender: 1, email: 1})
+// Project can't be used in FindOne
+

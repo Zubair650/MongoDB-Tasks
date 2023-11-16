@@ -1,0 +1,19 @@
+// db.test.find({age: {$gt : 20, $lt : 35}},{age:1, name: 1}) // implicit and 
+
+// explicit $and
+db.test.find({$and:
+    [
+       { age: {$gte : 20} },
+       { age: {$lte : 26} },
+       { gender: 'Male'}
+    ]
+}).project({"name.firstName": 1, gender: 1, age:1}).sort({age: 1})
+
+// explicit $or
+db.test.find({
+    $or: 
+    [
+       {interests : "Gaming"}, 
+       {interests : "Cooking"}, 
+    ]
+}).project({name: 1, interests: 1})

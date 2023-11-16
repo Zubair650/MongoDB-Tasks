@@ -1,0 +1,4 @@
+// db.test.updateOne({ "_id": ObjectId("65560c94c4d117c84063a6e5") }, { $set: { arr: [] } })
+db.test.updateOne({ "_id" : ObjectId("65560c94c4d117c84063a6e5") },
+{ $push : { arr: ["Hello", "World", "JS"] } })
+// { $pop : { arr : 1 } })

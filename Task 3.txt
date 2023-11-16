@@ -1,0 +1,1 @@
+db.test.find({ gender: { $eq: 'Female' }, age: { $in: [22, 24, 26] }, interests : {$in: ["Cooking", "Gaming"]} }, { name: 1, gender: 1, age: 1 , interests: 1}).sort({ age: 1 }) // $in operator
