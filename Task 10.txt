@@ -1,0 +1,3 @@
+db.test.updateOne({ "_id": ObjectId("6406ad65fc13ae5a400000c7") }, {
+    $set: { "name.lastName": "Khan", email: "shakibhaq525@gmail.com" }
+})

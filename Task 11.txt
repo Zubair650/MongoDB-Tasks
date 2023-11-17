@@ -1,0 +1,4 @@
+db.test.updateOne({ _id: ObjectId("6406ad65fc13ae5a400000c6"), "education.degree": "Associate of Arts" }, 
+{
+    $set: { "education.$.degree": "CSE" }
+}) // $ sign for updating an element of an array
