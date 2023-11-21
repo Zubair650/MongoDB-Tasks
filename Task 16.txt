@@ -1,0 +1,5 @@
+db.test.aggregate([
+    { $match: { gender: "Female", age: { $lte: 20 } } },
+    { $addFields: {level: 2}},
+    { $out: "new_test"}
+])

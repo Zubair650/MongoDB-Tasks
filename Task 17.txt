@@ -1,0 +1,5 @@
+db.test.aggregate([
+    { $match: { gender: "Male", age: { $lte: 20 } } },
+    { $addFields: { expertise: "Web Development" } },
+    { $merge: "test" }
+])

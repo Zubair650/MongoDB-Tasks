@@ -1,0 +1,4 @@
+db.test.aggregate([
+    { $group: { _id: "$age", displayInfo: { $push: "$$ROOT" } } },
+    { $project: { "displayInfo.name": 1 } }
+])

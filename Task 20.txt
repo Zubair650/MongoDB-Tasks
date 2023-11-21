@@ -1,0 +1,22 @@
+db.test.aggregate([
+    {
+        $group:
+        {
+            _id: null,
+            totalSalary: { $sum: "$salary" },
+            maxSalary: { $max: "$salary" },
+            minSalary: { $min: "$salary" },
+            avgSalary: { $avg: "$salary" }
+        }
+    },
+    {
+        $project:
+        {
+            SalaryTotal: "$totalSalary",
+            MaximumSalary: "$maxSalary",
+            MinimumSalary: "$minSalary",
+            AverageSalary: "$avgSalary",
+            SubstractSalary: { $subtract: ["$maxSalary", "$minSalary"] }
+        }
+    }
+])

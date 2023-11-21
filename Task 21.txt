@@ -1,0 +1,9 @@
+db.test.aggregate([
+    { $unwind: "$interests" },
+    {
+        $group: {
+            _id: "$age",
+            interestsPerPage: { $push: "$interests" }
+        }
+    }
+])
