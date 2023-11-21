@@ -1,0 +1,1 @@
+db.test.find({ _id: ObjectId("65560c94c4d117c84063a6e5") }).explain("executionStats")

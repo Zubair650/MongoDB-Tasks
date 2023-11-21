@@ -1,0 +1,2 @@
+db.getCollection("test").createIndex({ favouriteColor: "text" })
+db.getCollection("test").find({ $text: { $search: "Blue" } }).project({name: 1, favouriteColor: 1})

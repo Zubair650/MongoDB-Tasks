@@ -1,0 +1,20 @@
+db.test.aggregate([
+    {
+        $bucket: {
+            groupBy: "$age",
+            boundaries: [20, 40, 80, 160],
+            default: "Greater than 50",
+            output:
+            {
+                count: { $sum: 1 },
+                name: { $push: "$name" }
+            }
+        }
+    },
+    {
+        $sort: { count: 1 }
+    },
+    {
+        $limit: 2
+    }
+])
