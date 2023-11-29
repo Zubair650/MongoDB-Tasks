@@ -20,12 +20,12 @@ MongoDB is a source-available cross-platform document-oriented database program.
 <tr><td>Task 15 (match, add fields, out)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2015%20(match%2C%20add%20fields%2C%20out).txt"> Click here</a> </td></tr>
 <tr><td>Task 16 (merge)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2016%20(merge).txt"> Click here</a> </td></tr>
 <tr><td>Task 17 (group)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2017%20(group).txt"> Click here</a> </td></tr>
-<tr><td>Task 18 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/task%2018%20(project).txt"> Click here</a> </td></tr>
-<tr><td>Task 19 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2019%20(sum%2C%20maximum%2C%20minimum%2C%20average).txt"> Click here</a> </td></tr>
-<tr><td>Task 20 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2020%20(unwind).txt"> Click here</a> </td></tr>
-<tr><td>Task 21 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2021%20(bucket%2C%20limit).txt"> Click here</a> </td></tr>
-<tr><td>Task 22 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2022%20(facet).txt"> Click here</a> </td></tr>
-<tr><td>Task 23 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2023%20(lookup).txt"> Click here</a> </td></tr>
-<tr><td>Task 24 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2024%20(explain).txt"> Click here</a> </td></tr>
-<tr><td>Task 25 </td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2025%20(create%20index).txt"> Click here</a> </td></tr>
+<tr><td>Task 18 (project)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/task%2018%20(project).txt"> Click here</a> </td></tr>
+<tr><td>Task 19 (sum, maximum, minimum, average)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2019%20(sum%2C%20maximum%2C%20minimum%2C%20average).txt"> Click here</a> </td></tr>
+<tr><td>Task 20 (unwind)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2020%20(unwind).txt"> Click here</a> </td></tr>
+<tr><td>Task 21 (bucket, limit)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2021%20(bucket%2C%20limit).txt"> Click here</a> </td></tr>
+<tr><td>Task 22 (facet)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2022%20(facet).txt"> Click here</a> </td></tr>
+<tr><td>Task 23 (lookup)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2023%20(lookup).txt"> Click here</a> </td></tr>
+<tr><td>Task 24 (explain)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2024%20(explain).txt"> Click here</a> </td></tr>
+<tr><td>Task 25 (create index)</td> <td> <a href="https://github.com/Zubair650/MongoDB-Tasks/blob/main/All%20Tasks/Task%2025%20(create%20index).txt"> Click here</a> </td></tr>
 </table>
